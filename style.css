@@ -1,0 +1,120 @@
+
+body{
+    font: 20px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;}
+
+#main{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: #8EDBC1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+header ul {
+    list-style-type: none;
+   margin: 0;
+   padding: 0;
+  }
+
+ header li {
+    display: inline-block;
+    width: 100px;
+   }
+
+  header li a{
+    text-decoration: none;
+    color: black;
+   }
+  header li a:hover {
+    background-color:#0AC486;
+  }
+
+  #img-div {
+      width: 85%;
+      margin: auto;
+      text-align: center;
+  }
+  #Biography{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+  }
+  #tribute-link{
+      color: #8EDBC1;
+  }
+
+  #Gallery{
+    width: 80%;
+    margin: auto;
+   
+   
+  }
+
+  .Gallery-div{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+  }
+
+  #Legacy{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+  }
+
+  #Quotes{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+  }
+
+
+  footer{
+      background:#8EDBC1;
+      text-align: center;
+      padding: 10px; 
+  }
+
+
+
+
+
+
+
+  /*media Query */
+
+  /* big-tablet and Ipad  media query*/
+@media(max-width: 1040px){
+    body{
+        font: 18px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+    }
+   
+}
+
+
+
+
+
+/* mobile */
+
+  @media (max-width: 480px) {  
+    body {
+        font: 16px/1.5 Tahoma,Arial, Helvetica,sans-serif;
+    }
+    .Gallery-div{
+        width: 42%;
+    }
+    header li {
+     
+        width: 80px;
+       }
+
+}
